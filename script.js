@@ -55,10 +55,10 @@ function getSavedBestScores() {
         bestScoreArray = JSON.parse(localStorage.bestScores);
     } else {
         bestScoreArray = [
-            { questions: 10, bestScore: finalTimeDisplay },
-            { questions: 25, bestScore: finalTimeDisplay },
-            { questions: 50, bestScore: finalTimeDisplay },
-            { questions: 99, bestScore: finalTimeDisplay },
+            { questions: 100, bestScore: finalTimeDisplay },
+            { questions: 1000, bestScore: finalTimeDisplay },
+            { questions: 10000, bestScore: finalTimeDisplay },
+            { questions: 100000, bestScore: finalTimeDisplay },
         ];
         localStorage.setItem('bestScores', JSON.stringify(bestScoreArray));
     }
